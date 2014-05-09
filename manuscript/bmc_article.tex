@@ -55,6 +55,7 @@
 %\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
 \urlstyle{rm}
  
+ \usepackage{todonotes}
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 %%                                             %%
@@ -230,7 +231,7 @@ scriptable graphical workbench.}} \\
 %%%%%%%%%%%%%%%%
 %% Background %%
 %%
-\section*{Background}
+\section*{Introduction}
 The life sciences is a wide, cross diciplinary field where it is sometimes
 difficult to foresee all the ways specially tailored high performance software
 components are going to be used, thus the ultimate power ---~programming~--- is
@@ -252,7 +253,9 @@ benefits and implications of the method for publishing new specially tailored
 high performance software components which the Bioclipse~2 framework provides,
 and why it is especially suitable for the life sciences.
 
-\subsection*{Scripting language}
+\section*{Methods}
+
+\subsection*{Scripting languages}
 Bioclipse~2 provides a scripting environment based on JavaScript which probably
 is most famous for it's web use and it's use to enhance the web. During the
 final years before the turn of the century JavaScript was developed by web
@@ -263,26 +266,26 @@ pages~\cite{Willighagen:2007kx} as well as for increasing web accessability for
 \textit{e.g.} blind web users~\cite{Bigham:2007uq}. It is however not only a
 language for the web but the fact that it is somewhat of an industrial standard
 on the web means that users who has touched web design should have it easier to
-start scripting Bioclipse.
+start scripting Bioclipse. \todo{add Groovy}
  
 %%%%%%%%%%%%%%%%%%
 \section*{Results}
 
 {\itshape
-What we have done\ldots
+Applications:\ldots
 \begin{itemize}
-    \item integrated scripting
-    \item integrate jmol scripting
-    \item integrate with web services
-    \item integrate with GUI
-    \item Examples
+    \item QSAR
+    \item Metaprint2d
+    \item DS
+    \item R
+    \item Brunn (claes)
+    \item CDK
+    \item egonw:
     \begin{itemize}
         \item Cheminformatics - general: Bioclipse enables advanced cheminfo
-              \texttt{[Egon?]}
-        \item Bioinformatics - ?
-        \item Brunn \texttt{[Jonathan, Claes?]}
-        \item MetaPrint2D \texttt{[Ola]}
-        \item Semantic webb/LODD paper \texttt{[Samuel?/Egon?]}
+        \item Semantic webb/LODD paper
+        \item Pathways?
+        \item \ldots
     \end{itemize}
 \end{itemize}
 }
@@ -300,9 +303,6 @@ summarizes the solution (See: \cite{Spinellis:2005fk})}
 \section*{Conclusions}
   
 %%%%%%%%%%%%%%%%%%
-\section*{Methods}
-
-\textit{Bioclipse, architecture (extensibility) implementation}
     
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Authors contributions}
@@ -396,12 +396,7 @@ summarizes the solution (See: \cite{Spinellis:2005fk})}
 
 \section*{Additional Files}
   \subsection*{Additional file 1 --- Sample additional file title}
-    Additional file descriptions text (including details of how to
-    view the file, if it is in a non-standard format or the file extension).  This might
-    refer to a multi-page table or a figure.
-
-  \subsection*{Additional file 2 --- Sample additional file title}
-    Additional file descriptions text.
+    manager docs as html? \todo{fix!}
 
 
 \end{bmcformat}
